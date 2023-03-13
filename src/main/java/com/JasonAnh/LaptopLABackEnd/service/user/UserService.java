@@ -24,5 +24,7 @@ public interface UserService {
 
     User adminSignin(User request) throws Exception;
 
+    List<User> getListUser(int page, String phone, String name, boolean deleted)throws Exception;
+    Long countListUser(int page, String phone, String name, boolean deleted)throws Exception;
 
 }

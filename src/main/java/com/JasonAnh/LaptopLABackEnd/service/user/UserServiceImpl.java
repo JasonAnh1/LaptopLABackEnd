@@ -2,6 +2,7 @@ package com.JasonAnh.LaptopLABackEnd.service.user;
 
 import com.JasonAnh.LaptopLABackEnd.configuration.Translator;
 import com.JasonAnh.LaptopLABackEnd.entity.User;
+import com.JasonAnh.LaptopLABackEnd.entity.constants.RoleName;
 import com.JasonAnh.LaptopLABackEnd.repository.user.RoleRepository;
 import com.JasonAnh.LaptopLABackEnd.security.CustomUserDetailsService;
 import com.JasonAnh.LaptopLABackEnd.security.JwtTokenProvider;
@@ -85,5 +86,23 @@ class UserServiceImpl extends BaseService implements UserService {
     @Override
     public User adminSignin(User request) throws Exception {
         return null;
+    }
+
+    @Override
+    public List<User> getListUser(int page, String phone, String name, boolean deleted) throws Exception {
+        User user = getUser();
+        if (user ==null || user.getRoles().get(0).getName() == RoleName.ROLE_USER ) {
+            throw new Exception(Translator.toLocale("access_denied"));
+        }
+        return userRepository.getListUser(page, phone, name,deleted);
+    }
+
+    @Override
+    public Long countListUser(int page, String phone, String name, boolean deleted) throws Exception {
+        User user = getUser();
+        if (user ==null || user.getRoles().get(0).getName() == RoleName.ROLE_USER) {
+            throw new Exception(Translator.toLocale("access_denied"));
+        }
+        return userRepository.countListUser(phone, name,deleted);
     }
 }

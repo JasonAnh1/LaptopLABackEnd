@@ -1,0 +1,2 @@
+
+INSERT INTO `users` (phone, email, name, password, image_url, created_at, updated_at) VALUES ('1234', '1234@gmail.com', 'test', '$2a$10$ilkXcSZX49ghvrsdb2UEi.X1nNjhRPfl2Qvp2h5l3jgXAFC0gYCdS', 'https://baoquocte.vn/stores/news_dataimages/dieulinh/012020/29/15/nhung-buc-anh-dep-tuyet-voi-ve-tinh-ban.jpg', NOW(), NOW());
