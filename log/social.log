@@ -1,0 +1,1005 @@
+07-03-2023 20:05:47.401 [restartedMain] INFO  c.J.L.LaptopLaBackEndApplication.logStarting - Starting LaptopLaBackEndApplication using Java 1.8.0_45 on MSI with PID 22836 (D:\junk\LaptopLABackEnd\LaptopLABackEnd\target\classes started by MSI Stealth 15M in D:\junk\LaptopLABackEnd\LaptopLABackEnd)
+07-03-2023 20:05:47.406 [restartedMain] INFO  c.J.L.LaptopLaBackEndApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-03-2023 20:05:47.459 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls.logTo - The Class-Path manifest attribute in C:\Users\MSI Stealth 15M\.m2\repository\io\grpc\grpc-netty-shaded\1.39.0\grpc-netty-shaded-1.39.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-core-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-api-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/guava-30.1-android.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/error_prone_annotations-2.4.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/perfmark-api-0.23.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/failureaccess-1.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/jsr305-3.0.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/j2objc-annotations-1.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/gson-2.8.6.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/annotations-4.1.1.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-context-1.39.0.jar
+07-03-2023 20:05:47.459 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls.logTo - The Class-Path manifest attribute in C:\Users\MSI Stealth 15M\.m2\repository\io\grpc\grpc-alts\1.39.0\grpc-alts-1.39.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-auth-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-grpclb-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-protobuf-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-stub-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/protobuf-java-util-3.17.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/proto-google-common-protos-2.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/protobuf-java-3.17.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/conscrypt-openjdk-uber-2.5.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-auth-library-oauth2-http-0.22.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-netty-shaded-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-core-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-protobuf-lite-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-api-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-http-client-jackson2-1.38.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-http-client-1.38.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/opencensus-contrib-http-util-0.24.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/guava-30.1-android.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-auth-library-credentials-0.22.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/error_prone_annotations-2.4.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/jsr305-3.0.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/failureaccess-1.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/j2objc-annotations-1.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/auto-value-annotations-1.7.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/perfmark-api-0.23.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/opencensus-api-0.24.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-context-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/gson-2.8.6.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/annotations-4.1.1.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/httpclient-4.5.13.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/httpcore-4.4.13.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/jackson-core-2.11.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/commons-logging-1.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/commons-codec-1.11.jar
+07-03-2023 20:05:47.459 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+07-03-2023 20:05:47.460 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+07-03-2023 20:05:48.135 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-03-2023 20:05:48.184 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+07-03-2023 20:05:48.440 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9ff304ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+07-03-2023 20:05:48.506 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+07-03-2023 20:05:48.977 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+07-03-2023 20:05:48.983 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-03-2023 20:05:48.984 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.62]
+07-03-2023 20:05:49.119 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-03-2023 20:05:49.120 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1660 ms
+07-03-2023 20:05:49.200 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-03-2023 20:05:49.328 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-03-2023 20:05:49.436 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-03-2023 20:05:49.462 [restartedMain] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 8.0.5 by Redgate
+07-03-2023 20:05:49.463 [restartedMain] INFO  o.f.c.i.d.base.BaseDatabaseType.info - Database: jdbc:mysql://localhost:3306/LAcomputer (MySQL 8.0)
+07-03-2023 20:05:49.508 [restartedMain] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 1 migration (execution time 00:00.021s)
+07-03-2023 20:05:49.514 [restartedMain] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `lacomputer`: 1.0
+07-03-2023 20:05:49.515 [restartedMain] INFO  o.f.core.internal.command.DbMigrate.info - Schema `lacomputer` is up to date. No migration necessary.
+07-03-2023 20:05:49.573 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-03-2023 20:05:49.612 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.8.Final
+07-03-2023 20:05:49.721 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+07-03-2023 20:05:49.795 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+07-03-2023 20:05:50.332 [restartedMain] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [address] in table [users]
+07-03-2023 20:05:50.333 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter.onStartup - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through method 'setContentNegotationStrategy' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'openEntityManagerInViewInterceptorConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Unsatisfied dependency expressed through method 'openEntityManagerInViewInterceptorConfigurer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openEntityManagerInViewInterceptor' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [address] in table [users]
+07-03-2023 20:05:50.350 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+07-03-2023 20:05:50.353 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase.log - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+07-03-2023 20:05:50.353 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase.log - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1066)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+07-03-2023 20:05:50.355 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+07-03-2023 20:05:50.356 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-03-2023 20:05:50.360 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-03-2023 20:05:50.367 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+07-03-2023 20:05:50.385 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.JasonAnh.LaptopLABackEnd.LaptopLaBackEndApplication.main(LaptopLaBackEndApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:479)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through method 'setContentNegotationStrategy' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'openEntityManagerInViewInterceptorConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Unsatisfied dependency expressed through method 'openEntityManagerInViewInterceptorConfigurer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openEntityManagerInViewInterceptor' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [address] in table [users]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:719)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$195/1374754683.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$195/1374754683.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:175)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:170)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:260)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext$$Lambda$574/1017235953.onStartup(Unknown Source)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5219)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'openEntityManagerInViewInterceptorConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Unsatisfied dependency expressed through method 'openEntityManagerInViewInterceptorConfigurer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openEntityManagerInViewInterceptor' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [address] in table [users]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:719)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$195/1374754683.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$195/1374754683.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:759)
+	... 72 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'openEntityManagerInViewInterceptorConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Unsatisfied dependency expressed through method 'openEntityManagerInViewInterceptorConfigurer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openEntityManagerInViewInterceptor' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [address] in table [users]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$195/1374754683.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1607)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1347)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:759)
+	... 97 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openEntityManagerInViewInterceptor' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [address] in table [users]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$195/1374754683.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 114 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [address] in table [users]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$195/1374754683.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1243)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:494)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.findEntityManagerFactory(EntityManagerFactoryUtils.java:121)
+	at org.springframework.orm.jpa.EntityManagerFactoryAccessor.setBeanFactory(EntityManagerFactoryAccessor.java:155)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1826)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1791)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 125 common frames omitted
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [address] in table [users]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 142 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [address] in table [users]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:144)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:42)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:204)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 146 common frames omitted
+07-03-2023 20:12:32.322 [restartedMain] INFO  c.J.L.LaptopLaBackEndApplication.logStarting - Starting LaptopLaBackEndApplication using Java 1.8.0_45 on MSI with PID 10020 (D:\junk\LaptopLABackEnd\LaptopLABackEnd\target\classes started by MSI Stealth 15M in D:\junk\LaptopLABackEnd\LaptopLABackEnd)
+07-03-2023 20:12:32.323 [restartedMain] INFO  c.J.L.LaptopLaBackEndApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-03-2023 20:12:32.362 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls.logTo - The Class-Path manifest attribute in C:\Users\MSI Stealth 15M\.m2\repository\io\grpc\grpc-netty-shaded\1.39.0\grpc-netty-shaded-1.39.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-core-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-api-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/guava-30.1-android.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/error_prone_annotations-2.4.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/perfmark-api-0.23.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/failureaccess-1.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/jsr305-3.0.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/j2objc-annotations-1.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/gson-2.8.6.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/annotations-4.1.1.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-context-1.39.0.jar
+07-03-2023 20:12:32.362 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls.logTo - The Class-Path manifest attribute in C:\Users\MSI Stealth 15M\.m2\repository\io\grpc\grpc-alts\1.39.0\grpc-alts-1.39.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-auth-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-grpclb-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-protobuf-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-stub-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/protobuf-java-util-3.17.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/proto-google-common-protos-2.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/protobuf-java-3.17.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/conscrypt-openjdk-uber-2.5.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-auth-library-oauth2-http-0.22.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-netty-shaded-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-core-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-protobuf-lite-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-api-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-http-client-jackson2-1.38.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-http-client-1.38.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/opencensus-contrib-http-util-0.24.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/guava-30.1-android.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-auth-library-credentials-0.22.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/error_prone_annotations-2.4.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/jsr305-3.0.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/failureaccess-1.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/j2objc-annotations-1.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/auto-value-annotations-1.7.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/perfmark-api-0.23.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/opencensus-api-0.24.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-context-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/gson-2.8.6.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/annotations-4.1.1.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/httpclient-4.5.13.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/httpcore-4.4.13.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/jackson-core-2.11.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/commons-logging-1.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/commons-codec-1.11.jar
+07-03-2023 20:12:32.363 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+07-03-2023 20:12:32.363 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+07-03-2023 20:12:32.915 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-03-2023 20:12:32.955 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+07-03-2023 20:12:33.186 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$2df33087] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+07-03-2023 20:12:33.215 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+07-03-2023 20:12:33.578 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+07-03-2023 20:12:33.583 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-03-2023 20:12:33.584 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.62]
+07-03-2023 20:12:33.703 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-03-2023 20:12:33.704 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1341 ms
+07-03-2023 20:12:33.765 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-03-2023 20:12:33.829 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-03-2023 20:12:33.928 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-03-2023 20:12:33.954 [restartedMain] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 8.0.5 by Redgate
+07-03-2023 20:12:33.955 [restartedMain] INFO  o.f.c.i.d.base.BaseDatabaseType.info - Database: jdbc:mysql://localhost:3306/LAcomputer (MySQL 8.0)
+07-03-2023 20:12:33.988 [restartedMain] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 1 migration (execution time 00:00.015s)
+07-03-2023 20:12:33.996 [restartedMain] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `lacomputer`: 1.0
+07-03-2023 20:12:33.997 [restartedMain] INFO  o.f.core.internal.command.DbMigrate.info - Schema `lacomputer` is up to date. No migration necessary.
+07-03-2023 20:12:34.076 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-03-2023 20:12:34.124 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.8.Final
+07-03-2023 20:12:34.234 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+07-03-2023 20:12:34.305 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+07-03-2023 20:12:34.844 [restartedMain] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [parent_id] in table [users]
+07-03-2023 20:12:34.845 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter.onStartup - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through method 'setContentNegotationStrategy' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'openEntityManagerInViewInterceptorConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Unsatisfied dependency expressed through method 'openEntityManagerInViewInterceptorConfigurer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openEntityManagerInViewInterceptor' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [parent_id] in table [users]
+07-03-2023 20:12:34.857 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+07-03-2023 20:12:34.859 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase.log - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+07-03-2023 20:12:34.859 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase.log - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1066)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+07-03-2023 20:12:34.861 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+07-03-2023 20:12:34.863 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-03-2023 20:12:34.867 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-03-2023 20:12:34.873 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+07-03-2023 20:12:34.891 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.JasonAnh.LaptopLABackEnd.LaptopLaBackEndApplication.main(LaptopLaBackEndApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:479)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through method 'setContentNegotationStrategy' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'openEntityManagerInViewInterceptorConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Unsatisfied dependency expressed through method 'openEntityManagerInViewInterceptorConfigurer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openEntityManagerInViewInterceptor' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [parent_id] in table [users]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:719)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$197/948361732.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$197/948361732.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:175)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:170)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:260)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext$$Lambda$574/2032651889.onStartup(Unknown Source)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5219)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'openEntityManagerInViewInterceptorConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Unsatisfied dependency expressed through method 'openEntityManagerInViewInterceptorConfigurer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openEntityManagerInViewInterceptor' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [parent_id] in table [users]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:767)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:719)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$197/948361732.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$197/948361732.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:759)
+	... 72 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'openEntityManagerInViewInterceptorConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Unsatisfied dependency expressed through method 'openEntityManagerInViewInterceptorConfigurer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openEntityManagerInViewInterceptor' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [parent_id] in table [users]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$197/948361732.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1607)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1571)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1460)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1347)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:759)
+	... 97 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'openEntityManagerInViewInterceptor' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration$JpaWebConfiguration.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [parent_id] in table [users]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$197/948361732.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 114 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [parent_id] in table [users]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$197/948361732.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:233)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1243)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:494)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:349)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:342)
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.findEntityManagerFactory(EntityManagerFactoryUtils.java:121)
+	at org.springframework.orm.jpa.EntityManagerFactoryAccessor.setBeanFactory(EntityManagerFactoryAccessor.java:155)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1826)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1791)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	... 125 common frames omitted
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [parent_id] in table [users]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 142 common frames omitted
+Caused by: org.hibernate.tool.schema.spi.SchemaManagementException: Schema-validation: missing column [parent_id] in table [users]
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.validateTable(AbstractSchemaValidator.java:144)
+	at org.hibernate.tool.schema.internal.GroupedSchemaValidatorImpl.validateTables(GroupedSchemaValidatorImpl.java:42)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.performValidation(AbstractSchemaValidator.java:97)
+	at org.hibernate.tool.schema.internal.AbstractSchemaValidator.doValidation(AbstractSchemaValidator.java:76)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:204)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 146 common frames omitted
+07-03-2023 20:13:07.172 [restartedMain] INFO  c.J.L.LaptopLaBackEndApplication.logStarting - Starting LaptopLaBackEndApplication using Java 1.8.0_45 on MSI with PID 21436 (D:\junk\LaptopLABackEnd\LaptopLABackEnd\target\classes started by MSI Stealth 15M in D:\junk\LaptopLABackEnd\LaptopLABackEnd)
+07-03-2023 20:13:07.173 [restartedMain] INFO  c.J.L.LaptopLaBackEndApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-03-2023 20:13:07.204 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls.logTo - The Class-Path manifest attribute in C:\Users\MSI Stealth 15M\.m2\repository\io\grpc\grpc-netty-shaded\1.39.0\grpc-netty-shaded-1.39.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-core-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-api-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/guava-30.1-android.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/error_prone_annotations-2.4.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/perfmark-api-0.23.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/failureaccess-1.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/jsr305-3.0.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/j2objc-annotations-1.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/gson-2.8.6.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/annotations-4.1.1.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-context-1.39.0.jar
+07-03-2023 20:13:07.205 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls.logTo - The Class-Path manifest attribute in C:\Users\MSI Stealth 15M\.m2\repository\io\grpc\grpc-alts\1.39.0\grpc-alts-1.39.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-auth-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-grpclb-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-protobuf-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-stub-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/protobuf-java-util-3.17.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/proto-google-common-protos-2.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/protobuf-java-3.17.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/conscrypt-openjdk-uber-2.5.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-auth-library-oauth2-http-0.22.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-netty-shaded-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-core-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-protobuf-lite-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-api-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-http-client-jackson2-1.38.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-http-client-1.38.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/opencensus-contrib-http-util-0.24.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/guava-30.1-android.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-auth-library-credentials-0.22.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/error_prone_annotations-2.4.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/jsr305-3.0.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/failureaccess-1.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/j2objc-annotations-1.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/auto-value-annotations-1.7.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/perfmark-api-0.23.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/opencensus-api-0.24.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-context-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/gson-2.8.6.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/annotations-4.1.1.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/httpclient-4.5.13.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/httpcore-4.4.13.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/jackson-core-2.11.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/commons-logging-1.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/commons-codec-1.11.jar
+07-03-2023 20:13:07.205 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+07-03-2023 20:13:07.205 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+07-03-2023 20:13:07.757 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-03-2023 20:13:07.801 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+07-03-2023 20:13:08.006 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8a0a61f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+07-03-2023 20:13:08.035 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+07-03-2023 20:13:08.381 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+07-03-2023 20:13:08.389 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-03-2023 20:13:08.389 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.62]
+07-03-2023 20:13:08.480 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-03-2023 20:13:08.480 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1274 ms
+07-03-2023 20:13:08.532 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-03-2023 20:13:08.593 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-03-2023 20:13:08.676 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-03-2023 20:13:08.701 [restartedMain] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 8.0.5 by Redgate
+07-03-2023 20:13:08.701 [restartedMain] INFO  o.f.c.i.d.base.BaseDatabaseType.info - Database: jdbc:mysql://localhost:3306/LAcomputer (MySQL 8.0)
+07-03-2023 20:13:08.729 [restartedMain] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 1 migration (execution time 00:00.013s)
+07-03-2023 20:13:08.735 [restartedMain] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `lacomputer`: 1.0
+07-03-2023 20:13:08.735 [restartedMain] INFO  o.f.core.internal.command.DbMigrate.info - Schema `lacomputer` is up to date. No migration necessary.
+07-03-2023 20:13:08.782 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-03-2023 20:13:08.816 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.8.Final
+07-03-2023 20:13:08.909 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+07-03-2023 20:13:08.973 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+07-03-2023 20:13:09.476 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-03-2023 20:13:09.482 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-03-2023 20:13:09.731 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter.onStartup - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'customUserDetailsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! Reason: Failed to create query for method public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?
+07-03-2023 20:13:09.744 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+07-03-2023 20:13:09.746 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase.log - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+07-03-2023 20:13:09.746 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase.log - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1066)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+07-03-2023 20:13:09.748 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+07-03-2023 20:13:09.748 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-03-2023 20:13:09.750 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-03-2023 20:13:09.754 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-03-2023 20:13:09.761 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+07-03-2023 20:13:09.779 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.JasonAnh.LaptopLABackEnd.LaptopLaBackEndApplication.main(LaptopLaBackEndApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:479)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'customUserDetailsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! Reason: Failed to create query for method public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$197/850303292.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$197/850303292.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:175)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:170)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:260)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext$$Lambda$574/250100343.onStartup(Unknown Source)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5219)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! Reason: Failed to create query for method public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$197/850303292.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 72 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! Reason: Failed to create query for method public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$197/850303292.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 87 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! Reason: Failed to create query for method public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:106)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:94)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor$$Lambda$981/743601670.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1049)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:96)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:86)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor$$Lambda$980/1422093456.apply(Unknown Source)
+	at java.util.Optional.map(Optional.java:215)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:86)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:364)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:322)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport$$Lambda$854/465163341.get(Unknown Source)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:328)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 98 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.lang.Boolean com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.existsByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:113)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:254)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:87)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:102)
+	... 123 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property 'code' found for type 'User'! Did you mean ''cover''?
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:437)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:413)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:366)
+	at org.springframework.data.mapping.PropertyPath$$Lambda$1019/893963091.apply(Unknown Source)
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:348)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:331)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:249)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart$$Lambda$1018/2040634064.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:250)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:383)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate$$Lambda$1016/1136792441.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:384)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:95)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:89)
+	... 127 common frames omitted
+07-03-2023 20:16:43.557 [restartedMain] INFO  c.J.L.LaptopLaBackEndApplication.logStarting - Starting LaptopLaBackEndApplication using Java 1.8.0_45 on MSI with PID 6172 (D:\junk\LaptopLABackEnd\LaptopLABackEnd\target\classes started by MSI Stealth 15M in D:\junk\LaptopLABackEnd\LaptopLABackEnd)
+07-03-2023 20:16:43.559 [restartedMain] INFO  c.J.L.LaptopLaBackEndApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-03-2023 20:16:43.595 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls.logTo - The Class-Path manifest attribute in C:\Users\MSI Stealth 15M\.m2\repository\io\grpc\grpc-netty-shaded\1.39.0\grpc-netty-shaded-1.39.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-core-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-api-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/guava-30.1-android.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/error_prone_annotations-2.4.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/perfmark-api-0.23.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/failureaccess-1.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/jsr305-3.0.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/j2objc-annotations-1.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/gson-2.8.6.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/annotations-4.1.1.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-context-1.39.0.jar
+07-03-2023 20:16:43.595 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls.logTo - The Class-Path manifest attribute in C:\Users\MSI Stealth 15M\.m2\repository\io\grpc\grpc-alts\1.39.0\grpc-alts-1.39.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-auth-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-grpclb-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-protobuf-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-stub-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/protobuf-java-util-3.17.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/proto-google-common-protos-2.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/protobuf-java-3.17.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/conscrypt-openjdk-uber-2.5.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-auth-library-oauth2-http-0.22.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-netty-shaded-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-core-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-protobuf-lite-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-api-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-http-client-jackson2-1.38.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-http-client-1.38.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/opencensus-contrib-http-util-0.24.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/guava-30.1-android.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-auth-library-credentials-0.22.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/error_prone_annotations-2.4.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/jsr305-3.0.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/failureaccess-1.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/j2objc-annotations-1.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/auto-value-annotations-1.7.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/perfmark-api-0.23.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/opencensus-api-0.24.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-context-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/gson-2.8.6.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/annotations-4.1.1.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/httpclient-4.5.13.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/httpcore-4.4.13.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/jackson-core-2.11.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/commons-logging-1.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/commons-codec-1.11.jar
+07-03-2023 20:16:43.596 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+07-03-2023 20:16:43.596 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+07-03-2023 20:16:44.133 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-03-2023 20:16:44.177 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+07-03-2023 20:16:44.375 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$39b3a057] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+07-03-2023 20:16:44.404 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+07-03-2023 20:16:44.746 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+07-03-2023 20:16:44.752 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-03-2023 20:16:44.752 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.62]
+07-03-2023 20:16:44.845 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-03-2023 20:16:44.845 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1249 ms
+07-03-2023 20:16:44.914 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-03-2023 20:16:45.012 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-03-2023 20:16:45.091 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-03-2023 20:16:45.116 [restartedMain] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 8.0.5 by Redgate
+07-03-2023 20:16:45.117 [restartedMain] INFO  o.f.c.i.d.base.BaseDatabaseType.info - Database: jdbc:mysql://localhost:3306/LAcomputer (MySQL 8.0)
+07-03-2023 20:16:45.148 [restartedMain] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 1 migration (execution time 00:00.015s)
+07-03-2023 20:16:45.155 [restartedMain] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `lacomputer`: 1.0
+07-03-2023 20:16:45.156 [restartedMain] INFO  o.f.core.internal.command.DbMigrate.info - Schema `lacomputer` is up to date. No migration necessary.
+07-03-2023 20:16:45.215 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-03-2023 20:16:45.250 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.8.Final
+07-03-2023 20:16:45.351 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+07-03-2023 20:16:45.416 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+07-03-2023 20:16:45.903 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-03-2023 20:16:45.909 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-03-2023 20:16:46.158 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter.onStartup - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'customUserDetailsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! Reason: Failed to create query for method public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?
+07-03-2023 20:16:46.170 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+07-03-2023 20:16:46.173 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase.log - The web application [ROOT] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+07-03-2023 20:16:46.174 [restartedMain] WARN  o.a.c.loader.WebappClassLoaderBase.log - The web application [ROOT] appears to have started a thread named [HikariPool-1 connection adder] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1066)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+07-03-2023 20:16:46.175 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+07-03-2023 20:16:46.175 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+07-03-2023 20:16:46.177 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+07-03-2023 20:16:46.180 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+07-03-2023 20:16:46.187 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+07-03-2023 20:16:46.219 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.JasonAnh.LaptopLABackEnd.LaptopLaBackEndApplication.main(LaptopLaBackEndApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:479)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:182)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:160)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityConfig': Unsatisfied dependency expressed through field 'customUserDetailsService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! Reason: Failed to create query for method public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$195/1682860832.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$195/1682860832.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:212)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:175)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:170)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:155)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:87)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:260)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext$$Lambda$576/1338349660.onStartup(Unknown Source)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5219)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:263)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:927)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'customUserDetailsService': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! Reason: Failed to create query for method public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$195/1682860832.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 72 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! Reason: Failed to create query for method public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$195/1682860832.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 87 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! Reason: Failed to create query for method public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:106)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(QueryExecutorMethodInterceptor.java:94)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor$$Lambda$983/1324072818.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1049)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:96)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:86)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor$$Lambda$982/1515263834.apply(Unknown Source)
+	at java.util.Optional.map(Optional.java:215)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:86)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:364)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:322)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport$$Lambda$858/345988561.get(Unknown Source)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:328)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 98 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract com.JasonAnh.LaptopLABackEnd.entity.User com.JasonAnh.LaptopLABackEnd.repository.user.UserRepository.findUserByCode(java.lang.String)! No property 'code' found for type 'User'! Did you mean ''cover''?
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:113)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:254)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:87)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:102)
+	... 123 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property 'code' found for type 'User'! Did you mean ''cover''?
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:437)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:413)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:366)
+	at org.springframework.data.mapping.PropertyPath$$Lambda$1021/1806810315.apply(Unknown Source)
+	at java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:324)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:348)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:331)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:249)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart$$Lambda$1020/1148143530.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:250)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:383)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate$$Lambda$1018/1466940207.apply(Unknown Source)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:512)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:502)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:384)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:95)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:89)
+	... 127 common frames omitted
+07-03-2023 20:17:05.224 [restartedMain] INFO  c.J.L.LaptopLaBackEndApplication.logStarting - Starting LaptopLaBackEndApplication using Java 1.8.0_45 on MSI with PID 12424 (D:\junk\LaptopLABackEnd\LaptopLABackEnd\target\classes started by MSI Stealth 15M in D:\junk\LaptopLABackEnd\LaptopLABackEnd)
+07-03-2023 20:17:05.226 [restartedMain] INFO  c.J.L.LaptopLaBackEndApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+07-03-2023 20:17:05.261 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls.logTo - The Class-Path manifest attribute in C:\Users\MSI Stealth 15M\.m2\repository\io\grpc\grpc-netty-shaded\1.39.0\grpc-netty-shaded-1.39.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-core-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-api-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/guava-30.1-android.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/error_prone_annotations-2.4.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/perfmark-api-0.23.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/failureaccess-1.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/jsr305-3.0.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/j2objc-annotations-1.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/gson-2.8.6.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/annotations-4.1.1.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-netty-shaded/1.39.0/grpc-context-1.39.0.jar
+07-03-2023 20:17:05.262 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls.logTo - The Class-Path manifest attribute in C:\Users\MSI Stealth 15M\.m2\repository\io\grpc\grpc-alts\1.39.0\grpc-alts-1.39.0.jar referenced one or more files that do not exist: file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-auth-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-grpclb-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-protobuf-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-stub-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/protobuf-java-util-3.17.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/proto-google-common-protos-2.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/protobuf-java-3.17.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/conscrypt-openjdk-uber-2.5.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-auth-library-oauth2-http-0.22.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-netty-shaded-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-core-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-protobuf-lite-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-api-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-http-client-jackson2-1.38.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-http-client-1.38.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/opencensus-contrib-http-util-0.24.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/guava-30.1-android.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/google-auth-library-credentials-0.22.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/error_prone_annotations-2.4.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/jsr305-3.0.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/failureaccess-1.0.1.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/checker-compat-qual-2.5.5.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/j2objc-annotations-1.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/auto-value-annotations-1.7.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/perfmark-api-0.23.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/opencensus-api-0.24.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/grpc-context-1.39.0.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/gson-2.8.6.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/annotations-4.1.1.4.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/animal-sniffer-annotations-1.19.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/httpclient-4.5.13.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/httpcore-4.4.13.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/jackson-core-2.11.3.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/commons-logging-1.2.jar,file:/C:/Users/MSI%20Stealth%2015M/.m2/repository/io/grpc/grpc-alts/1.39.0/commons-codec-1.11.jar
+07-03-2023 20:17:05.262 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+07-03-2023 20:17:05.263 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+07-03-2023 20:17:05.747 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+07-03-2023 20:17:05.792 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+07-03-2023 20:17:06.002 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5484741d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+07-03-2023 20:17:06.035 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping.afterPropertiesSet - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+07-03-2023 20:17:06.381 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+07-03-2023 20:17:06.387 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-03-2023 20:17:06.387 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.62]
+07-03-2023 20:17:06.495 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-03-2023 20:17:06.496 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1233 ms
+07-03-2023 20:17:06.564 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+07-03-2023 20:17:06.635 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+07-03-2023 20:17:06.716 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+07-03-2023 20:17:06.739 [restartedMain] INFO  o.f.c.i.license.VersionPrinter.info - Flyway Community Edition 8.0.5 by Redgate
+07-03-2023 20:17:06.739 [restartedMain] INFO  o.f.c.i.d.base.BaseDatabaseType.info - Database: jdbc:mysql://localhost:3306/LAcomputer (MySQL 8.0)
+07-03-2023 20:17:06.769 [restartedMain] INFO  o.f.core.internal.command.DbValidate.info - Successfully validated 1 migration (execution time 00:00.014s)
+07-03-2023 20:17:06.776 [restartedMain] INFO  o.f.core.internal.command.DbMigrate.info - Current version of schema `lacomputer`: 1.0
+07-03-2023 20:17:06.776 [restartedMain] INFO  o.f.core.internal.command.DbMigrate.info - Schema `lacomputer` is up to date. No migration necessary.
+07-03-2023 20:17:06.829 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+07-03-2023 20:17:06.868 [restartedMain] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 5.6.8.Final
+07-03-2023 20:17:06.971 [restartedMain] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+07-03-2023 20:17:07.035 [restartedMain] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+07-03-2023 20:17:07.509 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+07-03-2023 20:17:07.515 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+07-03-2023 20:17:08.232 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5afb226b, org.springframework.security.web.context.SecurityContextPersistenceFilter@db03395, org.springframework.security.web.header.HeaderWriterFilter@2a488e94, org.springframework.web.filter.CorsFilter@196b672a, org.springframework.security.web.authentication.logout.LogoutFilter@269eb92c, com.JasonAnh.LaptopLABackEnd.security.JwtAuthenticationFilter@4c06816c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ebdab59, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b9f1b8f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ec562ac, org.springframework.security.web.session.SessionManagementFilter@3b95fbac, org.springframework.security.web.access.ExceptionTranslationFilter@7dc2dca3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@213dc7f7]
+07-03-2023 20:17:08.343 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+07-03-2023 20:17:08.484 [restartedMain] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration.checkTemplateLocationExists - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+07-03-2023 20:17:08.512 [restartedMain] DEBUG o.s.w.s.e.m.PayloadRootAnnotationMethodEndpointMapping.initApplicationContext - Looking for endpoints in application context: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@60e7116b, started on Tue Mar 07 20:17:05 ICT 2023
+07-03-2023 20:17:08.515 [restartedMain] DEBUG o.s.w.s.s.e.m.SoapActionAnnotationMethodEndpointMapping.initApplicationContext - Looking for endpoints in application context: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@60e7116b, started on Tue Mar 07 20:17:05 ICT 2023
+07-03-2023 20:17:08.523 [restartedMain] DEBUG o.s.w.s.e.a.DefaultMethodEndpointAdapter.initMethodArgumentResolvers - No MethodArgumentResolvers set, using defaults: [org.springframework.ws.server.endpoint.adapter.method.dom.DomPayloadMethodProcessor@78fa88b4, org.springframework.ws.server.endpoint.adapter.method.MessageContextMethodArgumentResolver@728655a0, org.springframework.ws.server.endpoint.adapter.method.SourcePayloadMethodProcessor@3e120ec8, org.springframework.ws.server.endpoint.adapter.method.XPathParamMethodArgumentResolver@6faf8fd1, org.springframework.ws.soap.server.endpoint.adapter.method.SoapMethodArgumentResolver@433c15b8, org.springframework.ws.soap.server.endpoint.adapter.method.SoapHeaderElementMethodArgumentResolver@357632a, org.springframework.ws.server.endpoint.adapter.method.jaxb.XmlRootElementPayloadMethodProcessor@2d9d49c6, org.springframework.ws.server.endpoint.adapter.method.jaxb.JaxbElementPayloadMethodProcessor@3e5f8aa3, org.springframework.ws.server.endpoint.adapter.method.StaxPayloadMethodArgumentResolver@1d6dd905]
+07-03-2023 20:17:08.524 [restartedMain] DEBUG o.s.w.s.e.a.DefaultMethodEndpointAdapter.initMethodReturnValueHandlers - No MethodReturnValueHandlers set, using defaults: [org.springframework.ws.server.endpoint.adapter.method.dom.DomPayloadMethodProcessor@259ba7b1, org.springframework.ws.server.endpoint.adapter.method.SourcePayloadMethodProcessor@620f19bd, org.springframework.ws.server.endpoint.adapter.method.jaxb.XmlRootElementPayloadMethodProcessor@20479dcd, org.springframework.ws.server.endpoint.adapter.method.jaxb.JaxbElementPayloadMethodProcessor@5391dd31]
+07-03-2023 20:17:08.545 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+07-03-2023 20:17:08.578 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+07-03-2023 20:17:08.588 [restartedMain] INFO  c.J.L.LaptopLaBackEndApplication.logStarted - Started LaptopLaBackEndApplication in 3.652 seconds (JVM running for 4.729)
+07-03-2023 20:20:21.041 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-03-2023 20:20:21.041 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+07-03-2023 20:20:21.043 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+07-03-2023 20:20:21.191 [http-nio-8081-exec-1] WARN  o.s.c.s.ResourceBundleMessageSource.getResourceBundle - ResourceBundle [messages] not found for MessageSource: Can't find bundle for base name messages, locale en_US
+07-03-2023 20:20:21.315 [http-nio-8081-exec-3] WARN  o.s.c.s.ResourceBundleMessageSource.getResourceBundle - ResourceBundle [messages] not found for MessageSource: Can't find bundle for base name messages, locale en_US
+07-03-2023 20:20:37.509 [http-nio-8081-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
