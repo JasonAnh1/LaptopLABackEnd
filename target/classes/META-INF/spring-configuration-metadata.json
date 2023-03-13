@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "file",
+      "type": "com.JasonAnh.LaptopLABackEnd.configuration.FileStorageProperties",
+      "sourceType": "com.JasonAnh.LaptopLABackEnd.configuration.FileStorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "file.upload-dir",
+      "type": "java.lang.String",
+      "sourceType": "com.JasonAnh.LaptopLABackEnd.configuration.FileStorageProperties"
+    }
+  ],
+  "hints": []
+}
