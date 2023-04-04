@@ -8,7 +8,7 @@ import java.util.List;
 public interface UserService {
 
     /////////////////////User///////////
-
+    void test() throws Exception;
     User signin(User request) throws Exception;
 
     User signup(User request) throws Exception;
@@ -23,7 +23,7 @@ public interface UserService {
     User adminAddUser(User request) throws Exception;
 
     User adminSignin(User request) throws Exception;
-
+    List<User> getListUser2()throws Exception;
     List<User> getListUser(int page, String phone, String name, boolean deleted)throws Exception;
     Long countListUser(int page, String phone, String name, boolean deleted)throws Exception;
 

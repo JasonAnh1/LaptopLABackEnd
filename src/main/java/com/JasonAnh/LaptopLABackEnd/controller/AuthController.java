@@ -17,13 +17,22 @@ import javax.validation.Valid;
 public class AuthController extends BaseController{
     @Autowired
     private UserService userService;
-    @GetMapping ("v1/auth/signin")
+    @PostMapping ("v1/auth/signin")
     public ResponseEntity<?> authenticateUser(@Valid @RequestBody final User request) {
         try {
             if(request == null || request.getPhone() == null || request.getPassword() == null) {
                 throw new Exception(Translator.toLocale("required_fields"));
             }
             return ResponseEntity.ok( userService.signin(request));
+        } catch (Exception ex) {
+            return  ResponseEntity.badRequest().body(new BaseResponse(ex.getMessage(), null));
+        }
+    }
+    @GetMapping ("admin/v1/auth/test")
+    public ResponseEntity<?> test() {
+        try {
+            userService.test();
+            return ResponseEntity.ok( "success" );
         } catch (Exception ex) {
             return  ResponseEntity.badRequest().body(new BaseResponse(ex.getMessage(), null));
         }

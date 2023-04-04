@@ -17,16 +17,9 @@ public class User extends DateAudit {
     @Column(name = "id")
     private long id;
 
-
-
     @Size(max = 20)
     @Column(name = "phone")
     private String phone;
-
-
-
-
-
 
     @Size(max = 40)
     @Column(name = "email")
@@ -67,6 +60,7 @@ public class User extends DateAudit {
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(name = "user_roles", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
     private Set<Role> roles = new HashSet<>();
+
 
 
     @Transient
@@ -166,8 +160,6 @@ public class User extends DateAudit {
         this.avatar = avatar;
     }
 
-
-
     public Long getCoverId() {
         return coverId;
     }
@@ -199,15 +191,6 @@ public class User extends DateAudit {
     public void setBirthday(Date birthday) {
         this.birthday = birthday;
     }
-
-
-
-
-
-
-
-
-
 
     public RoleName getRoleName() {
         return roleName;

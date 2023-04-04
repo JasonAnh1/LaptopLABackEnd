@@ -1,12 +1,15 @@
 package com.JasonAnh.LaptopLABackEnd.service.user;
 
 import com.JasonAnh.LaptopLABackEnd.configuration.Translator;
+import com.JasonAnh.LaptopLABackEnd.entity.Role;
 import com.JasonAnh.LaptopLABackEnd.entity.User;
 import com.JasonAnh.LaptopLABackEnd.entity.constants.RoleName;
 import com.JasonAnh.LaptopLABackEnd.repository.user.RoleRepository;
 import com.JasonAnh.LaptopLABackEnd.security.CustomUserDetailsService;
 import com.JasonAnh.LaptopLABackEnd.security.JwtTokenProvider;
+import com.JasonAnh.LaptopLABackEnd.security.UserPrincipal;
 import com.JasonAnh.LaptopLABackEnd.service.BaseService;
+import com.JasonAnh.LaptopLABackEnd.util.Util;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -46,6 +49,14 @@ class UserServiceImpl extends BaseService implements UserService {
 
     /////////////////////User///////////
 
+    @Override
+    public void test() throws Exception {
+        User user = getUser();
+        if (user ==null || user.getRoles().get(0).getName() == RoleName.ROLE_USER ) {
+            throw new Exception(Translator.toLocale("access_denied"));
+        }
+    }
+
     public User signin(User request) throws Exception {
         Authentication authentication;
         try {
@@ -65,12 +76,42 @@ class UserServiceImpl extends BaseService implements UserService {
 
     @Override
     public User signup(User request) throws Exception {
-        return null;
+        if (userRepository.existsByPhone(request.getPhone())) {
+            throw new Exception(Translator.toLocale("phone_exists"));
+        }
+        if (userRepository.existsByEmail(request.getEmail())) {
+            throw new Exception(Translator.toLocale("email_exists"));
+        }
+
+
+        request.setPassword(passwordEncoder.encode(request.getPassword()));
+        Role userRole = roleRepository.findByName(RoleName.ROLE_USER).orElseThrow(() -> new RuntimeException("User Role not set."));
+        request.setRoles(Collections.singleton(userRole));
+        User result = userRepository.save(request);
+//        sendNotification(result);
+        UserDetails userDetails = customUserDetailsService.loadUserByUsername(result.getPhone());
+        String jwt = tokenProvider.generateTokenByUser((UserPrincipal) userDetails);
+        result.setAccessToken(jwt);
+        return result;
     }
 
     @Override
     public User getUserInfo(Long userId) throws Exception {
-        return null;
+        User me = getUser();
+        if (userId == null || me.getId() == userId) {
+            return me;
+        }
+        User user = userRepository.findById(userId).orElseThrow(() -> new Exception("Không tìm thấy người dùng"));
+        User response = new User();
+        response.setId(user.getId());
+        response.setName(user.getName());
+        response.setEmail(user.getEmail());
+        response.setPhone(user.getPhone());
+        response.setCover(user.getCover());
+        response.setAvatar(user.getAvatar());
+        response.setGender(user.getGender());
+        response.setBirthday(user.getBirthday());
+        return response;
     }
 
     @Override
@@ -86,6 +127,12 @@ class UserServiceImpl extends BaseService implements UserService {
     @Override
     public User adminSignin(User request) throws Exception {
         return null;
+    }
+
+    @Override
+    public List<User> getListUser2() throws Exception {
+
+        return userRepository.getListUser2();
     }
 
     @Override
